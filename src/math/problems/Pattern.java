@@ -10,6 +10,7 @@ public class Pattern {
 		 *
 		 *
 		 */
+
 		int count = 1, j = 0;
 		int num = 100;
 		List<String> pattern = new ArrayList<String>();
@@ -25,7 +26,6 @@ public class Pattern {
 			count++;
 		}
 		System.out.println(" ");
-
 
 	}
 }
