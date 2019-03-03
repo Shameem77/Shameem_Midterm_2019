@@ -164,6 +164,9 @@ and can be used to describe the execution time required or the space used (e.g.
 in memory or on disk) by an algorithm.
 
 Outlined different kind of sorting algorithm with time complexity?
+A. Selection Sort,Merge Sort,Shel Sort,Insertion Sort,Bubble Sort,
+Bucket Sort,Quick Sort,Heap Sort.
+
 
 A.Time Complexity comparison of Sorting Algorithms and Space Complexity comparison of Sorting Algorithms.
 
