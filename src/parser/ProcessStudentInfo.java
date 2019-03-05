@@ -34,8 +34,9 @@ public class ProcessStudentInfo {
 		 * Use any databases[MongoDB, Oracle or MySql] to store data and to retrieve data.
 		 *
 		 */
+		public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
 
-			public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
+
 				//Path of XML data to be read.
 				String pathSelenium  = System.getProperty("user.dir") +"/src/parser/selenium.xml";
 				String pathQtp = System.getProperty("user.dir") + "/src/parser/qtp.xml";
@@ -66,10 +67,22 @@ public class ProcessStudentInfo {
 		
 		      	
 				//Retrieve map data and display output.
+			for (Map.Entry<String, List<Student>> value : list.entrySet()) {
+				List<Student> students = (List<Student>) list.get(value.getKey());
+				System.out.println("\n" + value.getKey() + " Students");
+				for (Student s : students) {
+					String id = s.getId();
+					String firstname = s.getFirstName();
+					String lastname = s.getLastName();
+					String grade = s.getScore();
+					System.out.println("Students (id=" + id + ") '" + firstname + "'  '" + lastname + "'\t\t\tgrade= " + grade);
+				}
+			}
 
 
 
-				//Store Qtp data into Qtp table in Database
+
+			//Store Qtp data into Qtp table in Database
 				connectToMongoDB.insertIntoMongoDB(seleniumStudents,"qtp");
 				//connectToSqlDB.insertDataFromArrayListToMySql(seleniumStudents, "qtp","studentList");
 
