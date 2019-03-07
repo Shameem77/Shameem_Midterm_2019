@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf125068-80bd-41d7-926e-f856450ecbd3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/XmlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/XmlReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/databases/ConnectToMongoDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1023">
+            <state relative-caret-position="153">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
@@ -29,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/parser/ProcessStudentInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -42,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parser/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="621">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
               <folding>
                 <element signature="e#524#525#0" expanded="true" />
                 <element signature="e#547#548#0" expanded="true" />
@@ -68,38 +66,48 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/parser/XmlReader.java">
+        <entry file="file://$PROJECT_DIR$/src/design/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+            <state relative-caret-position="544">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
+        <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java">
+        <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design/Months.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -145,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/parser/Student.java" />
         <option value="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" />
         <option value="$PROJECT_DIR$/src/parser/XmlReader.java" />
+        <option value="$PROJECT_DIR$/src/design/Employee.java" />
       </list>
     </option>
   </component>
@@ -160,7 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,6 +227,12 @@
               <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="MidtermJanuary2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MidtermJanuary2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,11 +251,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551772818930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551917900201" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -416,7 +431,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,11 +459,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/codelab/status/roster-file-12-23-2018.csv" />
     <entry file="file://$PROJECT_DIR$/src/codelab/status/roster-file-02-23-2019.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/math/problems/FindLowestDifference.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -534,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/problems/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -575,20 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/problems/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -605,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/databases/ConnectToMongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1023">
+        <state relative-caret-position="153">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
@@ -613,17 +607,55 @@
     <entry file="file://$PROJECT_DIR$/src/parser/ProcessStudentInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/qtp.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/secret.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/XmlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        <state relative-caret-position="621">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
           <folding>
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#547#548#0" expanded="true" />
@@ -647,19 +679,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java">
+    <entry file="file://$PROJECT_DIR$/src/design/Months.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/XmlReader.java">
+    <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
           </folding>
         </state>
       </provider>

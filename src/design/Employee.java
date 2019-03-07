@@ -10,17 +10,17 @@ public interface Employee {
 	
 	//employeeId() will return employee id.
 	public int employeeId();
-	
-	//employeeName() will return employee name
 	public String employeeName();
-	
-	//assignDepartment() will assign employee to departments
     public void assignDepartment();
-	
-	//calculate employee salary
 	public int calculateSalary();
-	
-	//employee benefit
 	public void benefitLayout();
+	public default void startUpBonus(){
+		System.out.println("Every employee got 5000$ at start up bonus");
+	}
+
+	public static void housing(){
+		System.out.println("\nDoctors and postdoc got housing near the hospital in a 50% discounted rate");
+
+	}
 
 }
