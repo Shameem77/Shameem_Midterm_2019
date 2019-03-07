@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
+public class EmployeeInfo extends Abstractclass {
 	
  /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
  * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -19,7 +19,23 @@ public class EmployeeInfo {
 
 	/*
 	 * declare few static and final fields and some non-static fields
+	 *
 	 */
+	private String name;
+	private int employeeID;
+	private String deptName;
+	private static double salary;
+	private char gender;
+	private  int rating;
+	public EmployeeInfo(){}
+	public EmployeeInfo(String name, int employeeID, String deptName,double salary, char gender, int rating) {
+		this.name = name;
+		this.employeeID = employeeID;
+		this.deptName = deptName;
+		this.salary =salary;
+		this.gender = gender;
+		this.rating = rating;
+	}
 	static String companyName;
 	
 	/*
@@ -31,13 +47,112 @@ public class EmployeeInfo {
 	/*
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
+	 *
 	 */
-	public EmployeeInfo(int employeeId){
-		
+	public EmployeeInfo(String john_cena, int employeeId, double v, char m){
+		this.employeeID =employeeId;
 	}
-    public EmployeeInfo(String name, int employeeId){
-		
+	public EmployeeInfo(String name, int employeeId){
+		this.name = name;
+		this.employeeID = employeeId;
+
 	}
+	public EmployeeInfo(String name, int employeeID, String deptName,double salary, char gender) {
+		this.name = name;
+		this.employeeID = employeeID;
+		this.deptName = deptName;
+		this.salary =salary;
+		this.gender = gender;
+	}
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getEmployeeID() {
+		return employeeID;
+	}
+
+	public void setEmployeeID(int employeeID) {
+		this.employeeID = employeeID;
+	}
+
+	public String getDeptName() {
+		return deptName;
+	}
+
+	public void setDeptName(String deptName) {
+		this.deptName = deptName;
+	}
+
+	public static double getSalary() {
+		return salary;
+	}
+
+	public static void setSalary(double salary) {
+		EmployeeInfo.salary = salary;
+	}
+
+	public char getGender() {
+		return gender;
+	}
+
+	public void setGender(char gender) {
+		this.gender = gender;
+	}
+
+	public int getRating() {
+		return rating;
+	}
+
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+	public static String getCompanyName(){
+		return companyName;
+	}
+	public static void setCompanyName(String companyName){
+		EmployeeInfo.companyName =companyName;
+	}
+
+	public int employeeId() {
+		return 0;
+	}
+
+
+	public String employeeName() {
+		return null;
+	}
+
+
+	public void assignDepartment() {
+
+	}
+
+
+	public int calculateSalary() {
+		return 0;
+	}
+
+	public void benefitLayout() {
+		System.out.println("Full time employee have great benefit package");
+
+	}
+
+
+	public void severance() {
+		System.out.println("this company does not provide great severance package");
+	}
+	public void annualSalary(){
+		double yearlySalary =salary*12;
+		System.out.println(yearlySalary);
+		calculateEmployeeBonus(10,10000.00);
+
+	}
+
 	
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.
@@ -47,6 +162,25 @@ public class EmployeeInfo {
 	 * So you probably need to send 2 arguments.
 	 * 
 	 */
+	public static int calculateEmployeeBonus(int numberOfYearsWithCompany ,double yearlySalary){
+		double yearlyBonus =0.00;
+		if(numberOfYearsWithCompany ==5){
+			yearlyBonus =yearlySalary*0.40;
+		}
+		else if(numberOfYearsWithCompany == 4){
+			yearlyBonus =yearlySalary*0.50;
+		}
+		else if(numberOfYearsWithCompany == 3){
+			yearlyBonus =yearlySalary*0.60;
+		}
+		else if(numberOfYearsWithCompany ==2){
+			yearlyBonus =0;
+			System.out.println("No bonus working with cmpany");
+		}
+		//int total=0;
+		//return total;
+		return (int) yearlyBonus;
+	}
 	public static int calculateEmployeeBonus(int numberOfYearsWithCompany){
 		int total=0;
 		return total;
