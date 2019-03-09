@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf125068-80bd-41d7-926e-f856450ecbd3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/CodingExamJanuary2019/json/parser/NewsDataModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/parser/NewsDataModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJanuary2019/json/parser/CnnAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJanuary2019/json/parser/CnnAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJanuary2019/json/parser/JsonReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJanuary2019/json/parser/JsonReaderUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="bf125068-80bd-41d7-926e-f856450ecbd3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/json/parser/CnnAPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/databases/ConnectToMongoDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="1071">
               <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -178,9 +183,9 @@
         <option value="$PROJECT_DIR$/src/datastructure/UseArrayList.java" />
         <option value="$PROJECT_DIR$/src/datastructure/UseMap.java" />
         <option value="$PROJECT_DIR$/src/datastructure/UseQueue.java" />
-        <option value="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" />
         <option value="$PROJECT_DIR$/src/json/parser/NewsDataModel.java" />
         <option value="$PROJECT_DIR$/src/json/parser/CnnAPI.java" />
+        <option value="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" />
       </list>
     </option>
   </component>
@@ -288,7 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552110800807" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552110827792" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -306,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CnnAPI">
+  <component name="RunManager" selected="Application.ConnectToMongoDB">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -327,13 +332,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonReaderUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.parser.JsonReaderUtil" />
+    <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.ConnectToMongoDB" />
       <module name="CodingExamJanuary2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.parser.*" />
+          <option name="PATTERN" value="databases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,13 +346,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
+    <configuration name="JsonReaderUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json.parser.JsonReaderUtil" />
       <module name="CodingExamJanuary2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.*" />
+          <option name="PATTERN" value="json.parser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,19 +418,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UseArrayList" />
       <item itemvalue="Application.UseMap" />
       <item itemvalue="Application.UseQueue" />
       <item itemvalue="Application.JsonReaderUtil" />
       <item itemvalue="Application.CnnAPI" />
+      <item itemvalue="Application.ConnectToMongoDB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectToMongoDB" />
         <item itemvalue="Application.CnnAPI" />
         <item itemvalue="Application.JsonReaderUtil" />
         <item itemvalue="Application.UseQueue" />
         <item itemvalue="Application.UseMap" />
-        <item itemvalue="Application.UseArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -453,8 +458,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23825504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23825504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -468,7 +474,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24220963" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24220963" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -635,13 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1140">
           <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/databases/ConnectToMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -903,16 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/json/parser/NewsDataModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
@@ -958,6 +947,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/databases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
